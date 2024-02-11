@@ -1,0 +1,377 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    /* background-color: transparent !important; */
+    
+    background-color: rgba(0, 0, 0, 0.596) !important;
+
+}
+.navbar-brand  {
+    /* background-color: transparent !important; */
+   font-size: 25px;
+  
+    
+}
+.nav-item a {
+    color: white !important;
+    /* background-color: transparent !important; */
+   font-size: 18px;
+    
+}
+.navbar .container li {
+
+ position: relative;
+    
+    }
+.navbar .container li span {
+
+
+width: 10%;
+height: 2px;
+background-color: white;
+position: absolute;
+opacity: 0;
+bottom: 5px;
+right: 0;
+left: 15px;
+
+transition:  width .5s ;
+
+
+}
+.navbar .container li:hover span{
+    width: 60%;
+    opacity: 1;
+    
+}
+header {
+ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.651)) ,url(../Images/hero-bg.jpg) ;
+
+  
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.header-contant h1{
+    /* width: 100%; */
+    font-size: 72px;
+    line-height: 86.4px;
+    color: white;
+   
+
+}
+.header-contant  p{
+    /* width: 100%; */
+    font-size: 72px;
+    line-height: 86.4px;
+    color: white;
+   
+
+}
+.skills p{
+
+   padding: 10px 0px;
+}
+.aboutme-info h5{
+    position: relative;
+    font-size: 2rem;
+    line-height: 38.4px;
+    color: #1E1E1E;
+}
+.aboutme-info h5::after{
+    content: "";
+    height: 2px;
+    background-color: #0078FF;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 80%;
+
+}
+.aboutme-info p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.progress{
+    height: 10px;
+    border-radius: 0;
+}
+.service-header h3 {
+    font-size: 48px;
+    line-height: 57.6px;
+    color:#1E1E1E ;
+    /* color: aqua; */
+    position: relative;
+}
+.service-header p{
+position: relative;
+
+}
+.service-header p::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    
+    width: 5%;
+    height:5px;
+    background-color: #0078FF ;
+    transform: translatex(-50%);
+}
+.service-card a{
+  padding: 50px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    color: black;
+    background-color: transparent;
+      border: solid 10px;
+      border-color: #0077ff;
+    transition: background-color .5s , color .5s ;
+    transition: border-color .5s;
+    transition: color .5s;
+  
+}
+.service-card:hover a{
+    
+    background-color: #0077ff;
+    border-color: #CDE1F8;
+    color: white;
+  
+}
+.service-card a i{
+    font-size: 2rem;
+}
+.service-card{
+    border-radius: 20px;
+    
+}
+a{
+  text-decoration: none;
+}
+.service-card h2{
+    margin: 10px;
+}
+
+.animation-back{
+    /* height: 100vh; */
+    background-image: linear-gradient(#0077ffc7,#0077ffc7) ,url(../Images/post-3.jpg) ;
+
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.animation-back .row{
+  height: 60vh;
+}
+.animation-back .a{
+ padding: 50px;
+}
+.count::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter 5s linear infinite alternate;
+    counter-reset: count 0;
+  }
+  
+  @keyframes counter {
+    0% {
+      counter-increment: count 0;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    20% {
+      counter-increment: count 2;
+    }
+    30% {
+      counter-increment: count 3;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 5;
+    }
+    60% {
+      counter-increment: count 6;
+    }
+    70% {
+      counter-increment: count 7;
+    }
+    80% {
+      counter-increment: count 8;
+    }
+    90% {
+      counter-increment: count 9;
+    }
+    100% {
+      counter-increment: count 10;
+    }
+  }
+
+  .PORTFOLIO .card{
+    border-radius: 0;
+  }
+ .PORTFOLIO-img{
+  overflow: hidden;
+ }
+  .PORTFOLIO .card-body .col-2 {
+    
+    border: 2px solid #0078FF ;
+    
+  
+  
+  }
+  .plus {
+	width: 30px;
+	height: 30px;
+	background: linear-gradient(to bottom, transparent 40%, #0078FF 40%, #0078FF 60%, transparent 60%), linear-gradient(to right, transparent 40%, #0078FF 40%, #0078FF 60%, transparent 60%);
+ 
+}
+.PORTFOLIO .container .card img{
+  /* transform: scale(0,0); */
+  transition:transform 1s ;
+  
+}
+.PORTFOLIO .container .card img:hover{
+  transform: scale(120%,120%);
+
+}
+.silder{
+  background-image: linear-gradient(#0077ffc7,#0077ffc7) ,url(../Images/overlay-bg.jpg) ;
+/* height: 100vh; */
+background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  
+}
+
+.carousel-inner{
+  position: relative;
+
+  /* text-indent: 0px; */
+}
+.slider-contant h2{
+  font-size: 22.5px;
+}
+.carousel-item{
+  position: relative;
+}
+.silder .carousel-indicators {
+  
+
+position: absolute;
+bottom: 15%;
+left: 0;
+  
+
+
+}
+.silder .carousel-indicators button{
+
+    
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.BlOG .card .card-img{
+  position: relative;
+}
+.BlOG .card h6{
+  position:   absolute;
+ top: 100%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 10px;
+  background-color: #0078FF;
+  color: white;
+  font-size:11.2px;
+}
+.BlOG .card h3 a{
+  font-size: 22px;
+  line-height: 24.96px;
+  transition: color 1s;
+color: #1E1E1E;
+
+}
+.BlOG .card h3 a:hover{
+
+  color: #0078FF;
+}
+.Morgan-Freeman{
+  background-color: #F5F5F5;
+}
+.Morgan-Freeman .card-footer {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+}
+.Morgan-Freeman .card-footer img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+
+}
+.Morgan-Freeman .card-footer span {
+  color: #1E1E1E;
+  transition: color 1s;
+}
+.Morgan-Freeman .card-footer span:hover{
+  color: #0078FF;
+}
+.time{
+  background-color: #F5F5F5;
+}
+.footer-bg {
+  background-image: linear-gradient(#0077ffc7,#0077ffcb) ,url(../Images/overlay-bg.jpg) ;
+  /* height: 100vh; */
+  background-attachment: fixed;
+      background-position: center center;
+      background-size: cover;
+}
+
+.contact-body{
+
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+
+}
+.contact-body h5 {
+
+  position: relative;
+  
+  margin-bottom: 2rem;
+}
+.contact-body h5::after{
+
+  content: "";
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 20%;
+  height: 3px;
+  background-color: #0078FF;
+
+
+}
+.contact-info ul li {
+  padding: .25rem;
+}
+.contact-info span i{
+  color: #0078FF;
+
+}
+
+.bg-footer{
+  background-color: #0062D3;
+  
+}
